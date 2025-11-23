@@ -7,8 +7,11 @@ import {
   UserPen,
   Settings,
   LogOut,
+<<<<<<< HEAD
   DollarSign,
   IndianRupeeIcon,
+=======
+>>>>>>> 93fc3506aa421fd375821ba938844593d79670f1
 } from "lucide-react";
 import assets from "../../assets/assets";
 import { NavLink, useNavigate } from "react-router-dom";
@@ -106,6 +109,7 @@ const SideBar = ({ open, toggleSidebar }: SideBarProps) => {
             >
               <ListPlus /> Categories
             </NavLink>
+<<<<<<< HEAD
              <NavLink
               to="/transactions"
               className={({ isActive }) =>
@@ -117,6 +121,8 @@ const SideBar = ({ open, toggleSidebar }: SideBarProps) => {
             >
               <IndianRupeeIcon /> Transactions
             </NavLink>
+=======
+>>>>>>> 93fc3506aa421fd375821ba938844593d79670f1
             <NavLink
               to="/profile"
               className={({ isActive }) =>

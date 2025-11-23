@@ -13,7 +13,10 @@ import PrivateRoute from './routes/privateRoute';
 import MainLayout from './layouts/mainLayout';
 import Profile from './pages/profile/Profile';
 import Income from './pages/Income/Income';
+<<<<<<< HEAD
 import Transactions from './pages/transactions/Transactions';
+=======
+>>>>>>> 93fc3506aa421fd375821ba938844593d79670f1
 
 
 
@@ -95,6 +98,7 @@ function App() {
               </PrivateRoute>
             }
           />
+<<<<<<< HEAD
           <Route
             path="/transactions"
             element={
@@ -105,6 +109,8 @@ function App() {
               </PrivateRoute>
             }
           />
+=======
+>>>>>>> 93fc3506aa421fd375821ba938844593d79670f1
 
           {/* Default route */}
           <Route
